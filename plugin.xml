@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-document-scanner" version="5.0.0-beta.1">
+
+  <name>Scan</name>
+  <engines>
+    <engine name="cordova-android" version=">=6.4.0" />
+  </engines>
+  <asset src="www/scan.js" target="js/scan.js"/>
+  <js-module src="www/scan.js" name="scan">
+    <clobbers target="scan" />
+  </js-module>
+
+
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Scan">
+        <param name="android-package" value="com.neutrinos.plugin.Scan"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/Scan.java" target-dir="src/com/neutrinos/plugin/" />
+    <source-file src="src/android/FileHelper.java" target-dir="src/com/neutrinos/plugin/" />
+    <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
+  </platform>
+
+
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Scan">
+        <param name="ios-package" value="Scan" />
+      </feature>
+    </config-file>
+
+    <source-file src="src/ios/Scan.swift" />
+
+    <dependency id="cordova-plugin-add-swift-support" version="^2.0.2"/>
+    <dependency id="cordova-plugin-cocoapod-support"/>
+
+    <preference name="CAMERA_USAGE_DESCRIPTION" default="This app needs camera access"/>
+    <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+      <string>$CAMERA_USAGE_DESCRIPTION</string>
+    </config-file>
+
+    <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="This app needs read/write-access photo library access"/>
+    <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+      <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
+    </config-file>
+
+    <podspec>
+         <config>
+             <source url="https://github.com/CocoaPods/Specs.git"/>
+         </config>
+         <pods use-frameworks="true">
+           <pod name="WeScanKbs" git="https://github.com/SchmidtKBS/WeScan" branch="kbs-default" commit="2e19b63"/>
+         </pods>
+    </podspec>
+    
+  </platform>
+
+</plugin>
