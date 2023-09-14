@@ -20,6 +20,8 @@ import android.util.Base64;
 import com.scanlibrary.ScanActivity;
 import com.scanlibrary.ScanConstants;
 
+import com.owncloud.android.lib.*
+
 import java.io.ByteArrayOutputStream;
 import java.net.URL;
 
