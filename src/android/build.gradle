@@ -5,3 +5,7 @@ allprojects {
 		}
 	}
 }
+
+dependencies {
+	implementation 'com.github.SchmidtKBS:scanlibrary:54a15ead14664c02102d81db6e2079961bc15e0e'
+}
