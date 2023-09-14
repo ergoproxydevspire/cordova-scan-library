@@ -1,12 +1,7 @@
-apply plugin: 'java'
-
-
 allprojects {
 	repositories {
 		mavenCentral()
 	}
 }
 
-dependencies {
-	implementation fileTree(include: ['*.jar'], dir: 'scanlibrary')
-}
+
