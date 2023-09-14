@@ -1,4 +1,4 @@
-apply plugin: ':library'
+apply plugin: 'com.scanlibrary.ScanActivity'
 apply plugin: 'com.github.dcendents.android-maven'
 
 android {
