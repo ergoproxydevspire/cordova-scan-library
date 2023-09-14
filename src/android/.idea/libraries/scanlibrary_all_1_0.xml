@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="scanlibrary-all-1.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../scanlibrary/build/libs/scanlibrary-all-1.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
