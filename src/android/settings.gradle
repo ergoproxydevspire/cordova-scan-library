@@ -1,3 +1,5 @@
 include ':owncloudComLibrary'
+include ':library'
 project(':owncloudComLibrary').projectDir = new File(rootProject.projectDir, '../owncloudComLibrary')
+project(':library').projectDir = new File(rootProject.projectDir, '../library')
 include ':app'
