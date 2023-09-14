@@ -80,7 +80,7 @@ if(NOT TARGET opencv_core)
   # Note that CMake 2.8.3 introduced CMAKE_CURRENT_LIST_DIR. We reimplement it
   # for older versions of CMake to support these as well.
   if(CMAKE_VERSION VERSION_LESS "2.8.3")
-    get_filename_component(CMAKE_CURRENT_LIST_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+    get_filename_component(CMAKE_CURRENT_LIST_DIR "OpenCVConfig.cmake" PATH)
   endif()
 
   include(${CMAKE_CURRENT_LIST_DIR}/OpenCVModules${OpenCV_MODULES_SUFFIX}.cmake)
@@ -110,7 +110,7 @@ set(OpenCV_SHARED OFF)
 set(OpenCV_USE_MANGLED_PATHS FALSE)
 
 # Extract the directory where *this* file has been installed (determined at cmake run-time)
-get_filename_component(OpenCV_CONFIG_PATH "${CMAKE_CURRENT_LIST_FILE}" PATH CACHE)
+get_filename_component(OpenCV_CONFIG_PATH "OpenCVConfig.cmake" PATH CACHE)
 
 if(NOT WIN32 OR ANDROID)
   if(ANDROID)

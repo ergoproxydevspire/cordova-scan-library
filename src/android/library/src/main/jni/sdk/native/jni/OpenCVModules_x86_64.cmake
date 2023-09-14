@@ -39,7 +39,7 @@ unset(_expectedTargets)
 
 
 # Compute the installation prefix relative to this file.
-get_filename_component(_IMPORT_PREFIX "${CMAKE_CURRENT_LIST_FILE}" PATH)
+get_filename_component(_IMPORT_PREFIX "OpenCVModules_x86_64.cmake" PATH)
 get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
 get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
 get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
@@ -117,7 +117,7 @@ add_library(opencv_stitching STATIC IMPORTED)
 add_library(opencv_videostab STATIC IMPORTED)
 
 # Load information for each installed configuration.
-get_filename_component(_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+get_filename_component(_DIR "OpenCVModules_x86_64.cmake" PATH)
 file(GLOB CONFIG_FILES "${_DIR}/OpenCVModules_x86_64-*.cmake")
 foreach(f ${CONFIG_FILES})
   include(${f})
