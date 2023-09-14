@@ -1,10 +1,10 @@
-apply plugin: 'com.android.library'
+apply plugin: ':library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion 30
     buildToolsVersion "29.0.3"
-    
+
     // Needed for jitpack builds
     packagingOptions {
         doNotStrip '*/mips/*.so'

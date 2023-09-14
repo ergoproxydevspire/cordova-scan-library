@@ -17,6 +17,8 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.StrictMode;
 import android.util.Base64;
 
+import com.scanlibrary.ScanActivity;
+import com.scanlibrary.ScanConstants;
 
 import java.io.ByteArrayOutputStream;
 import java.net.URL;
