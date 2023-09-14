@@ -1,9 +1,2 @@
-allprojects {
-	repositories {
-		mavenLocal()
-	}
-}
+allprojects {}
 
-dependencies {
-	implementation project(':owncloudComLibrary');
-}

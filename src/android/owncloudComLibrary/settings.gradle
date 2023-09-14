@@ -1,3 +1,0 @@
-include ':owncloudComLibrary'
-project(':owncloudComLibrary').projectDir = new File(rootProject.projectDir, '/owncloudComLibrary')
-include ':app'
