@@ -1,6 +1,4 @@
 package com.neutrinos.plugin;
-package com.scanlibrary;
-
 
 import android.annotation.SuppressLint;
 import android.content.ContentUris;
