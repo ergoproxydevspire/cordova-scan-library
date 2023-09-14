@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b31660d2-5118-487b-b15e-009a61af9f2d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +39,14 @@
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ergoproxy13/Documents/Job/cordova-scan-library/src/android",
+    "last_opened_file_path": "/home/ergoproxy13/Documents/Job/cordova-scan-library",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -60,10 +61,15 @@
       <updated>1694675252794</updated>
       <workItem from="1694675254612" duration="381000" />
       <workItem from="1694678304332" duration="162000" />
+      <workItem from="1694679266458" duration="442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
