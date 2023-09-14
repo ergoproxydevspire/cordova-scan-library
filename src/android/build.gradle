@@ -8,5 +8,5 @@ allprojects {
 }
 
 dependencies {
-	implementation project(':androidlibrarymaster');
+	implementation project(':owncloudComLibrary');
 }
