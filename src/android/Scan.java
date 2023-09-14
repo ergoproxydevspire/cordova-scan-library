@@ -17,8 +17,6 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.StrictMode;
 import android.util.Base64;
 
-import com.scanlibrary.ScanActivity;
-import com.scanlibrary.ScanConstants;
 
 import java.io.ByteArrayOutputStream;
 import java.net.URL;
@@ -61,14 +59,14 @@ public class Scan extends CordovaPlugin {
             int preference = 0;
             try {
                 if (this.srcType == CAMERA) {
-                    preference = ScanConstants.OPEN_CAMERA;
+                    preference = 1;
                 } else if (this.srcType == PHOTOLIBRARY) {
-                    preference = ScanConstants.OPEN_MEDIA;
+                    preference = 1;
                 }
-                Intent intent = new Intent(cordova.getActivity().getApplicationContext(), ScanActivity.class);
-                intent.putExtra(ScanConstants.OPEN_INTENT_PREFERENCE, preference);
-                intent.putExtra("quality", this.quality);
-                cordova.getActivity().startActivityForResult(intent, REQUEST_CODE);
+//                Intent intent = new Intent(cordova.getActivity().getApplicationContext(), ScanActivity.class);
+//                intent.putExtra(3, preference);
+//                intent.putExtra("quality", this.quality);
+//                cordova.getActivity().startActivityForResult(intent, REQUEST_CODE);
             } catch (IllegalArgumentException e) {
                 this.callbackContext.error("Illegal Argument Exception");
                 PluginResult r = new PluginResult(PluginResult.Status.ERROR);
@@ -92,7 +90,7 @@ public class Scan extends CordovaPlugin {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE && resultCode == cordova.getActivity().RESULT_OK) {
-            Uri uri = data.getExtras().getParcelable(ScanConstants.SCANNED_RESULT);
+            Uri uri = data.getExtras().getParcelable(4);
             if (uri != null) {
                 String fileLocation = "file://" + FileHelper.getRealPath(uri, this.cordova);
                 if(returnBase64) {

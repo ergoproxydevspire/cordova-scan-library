@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="classes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../scanlibrary/library/build/intermediates/packaged-classes/debug/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../scanlibrary" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../../scanlibrary/library/src/main/jni/sdk/java/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../scanlibrary/library/build/generated/source/buildConfig/debug" />
+      <root url="file://$PROJECT_DIR$/../../../scanlibrary/library/src/androidTest/java" />
+      <root url="file://$PROJECT_DIR$/../../../scanlibrary/library/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../scanlibrary/library/src/main/jni/sdk/java/src" />
+    </SOURCES>
+  </library>
+</component>
