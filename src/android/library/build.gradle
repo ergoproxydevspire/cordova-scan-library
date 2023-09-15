@@ -33,7 +33,7 @@ android {
         }
     }
 
-    namespace 'com.scanlibrary.android.lib'
+    namespace 'com.scanlibrary'
     
 }
 

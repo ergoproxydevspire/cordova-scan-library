@@ -3,7 +3,7 @@ import android.os.Environment;
 /**
  * Created by jhansi on 15/03/15.
  */
-public class ScanConstants {
+public class ScanConstants extends CordovaPlugin {
 
     public final static int PICKFILE_REQUEST_CODE = 1;
     public final static int START_CAMERA_REQUEST_CODE = 2;
