@@ -22,6 +22,7 @@
     <source-file src="src/android/FileHelper.java" target-dir="src/com/neutrinos/plugin/" />
     <source-file src="src/android/ScanConstants.java" target-dir="src/com/neutrinos/plugin/" />
     <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
+    <framework src="src/android/scanlibrary/build.gradle" custom="true" type="gradleReference"/>
   </platform>
 
 
