@@ -1,4 +1,4 @@
-package com.scanlibrary;
+package com.neutrinos.plugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;

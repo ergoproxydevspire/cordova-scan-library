@@ -18,11 +18,20 @@
       </feature>
     </config-file>
 
-    <source-file src="src/android/Scan.java" target-dir="src/com/neutrinos/plugin/" />
-    <source-file src="src/android/FileHelper.java" target-dir="src/com/neutrinos/plugin/" />
-    <source-file src="src/android/ScanConstants.java" target-dir="src/com/neutrinos/plugin/" />
-    <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
-    <framework src="src/android/scanlibrary/library/build.gradle" custom="true" type="gradleReference"/>
+        <source-file src="src/android" target-dir="src/com/neutrinos/plugin/" />
+
+<!--    <source-file src="src/android/jni" target-dir="jni" />-->
+<!--    <source-file src="src/android/libs" target-dir="libs" />-->
+<!--    <source-file src="src/android/obj" target-dir="obj" />-->
+<!--    <source-file src="src/android/res" target-dir="res" />-->
+<!--    -->
+<!--    -->
+<!--    <source-file src="src/android/Scan.java" target-dir="src/com/neutrinos/plugin/" />-->
+<!--    <source-file src="src/android/FileHelper.java" target-dir="src/com/neutrinos/plugin/" />-->
+<!--    <source-file src="src/android/ScanConstants.java" target-dir="src/com/neutrinos/plugin/" />-->
+<!--    <source-file src="src/android/Utils.java" target-dir="src/com/neutrinos/plugin/" />-->
+<!--    <source-file src="src/android/SingleButtonDialogFragment.java" target-dir="src/com/neutrinos/plugin/" />-->
+<!--    <source-file src="src/android/ScanFragment.java" target-dir="src/com/neutrinos/plugin/" />-->
   </platform>
 
 
