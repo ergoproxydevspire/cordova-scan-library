@@ -33,7 +33,6 @@
 <!--    <source-file src="src/android/SingleButtonDialogFragment.java" target-dir="src/com/neutrinos/plugin/" />-->
 <!--    <source-file src="src/android/ScanFragment.java" target-dir="src/com/neutrinos/plugin/" />-->
     <framework src="src/android/scanlibrary/build.gradle" custom="true" type="gradleReference"/>
-    <framework src="src/android/scanlibrary/library/build.gradle" custom="true" type="gradleReference"/>
   </platform>
 
 
