@@ -18,7 +18,7 @@
       </feature>
     </config-file>
 
-        <source-file src="src/android/scanlibrary/" target-dir="src/com" />
+        <source-file src="src/android/scanlibrary/" target-dir="src/com/scanlibrary" />
 
         <source-file src="src/android/scanlibrary/library/src/main/res" target-dir="capacitor-cordova-android-plugins/res" />
 <!--    <source-file src="src/android/libs" target-dir="libs" />-->
@@ -32,7 +32,6 @@
 <!--    <source-file src="src/android/Utils.java" target-dir="src/com/neutrinos/plugin/" />-->
 <!--    <source-file src="src/android/SingleButtonDialogFragment.java" target-dir="src/com/neutrinos/plugin/" />-->
 <!--    <source-file src="src/android/ScanFragment.java" target-dir="src/com/neutrinos/plugin/" />-->
-    <framework src="src/android/scanlibrary/build.gradle" custom="true" type="gradleReference"/>
   </platform>
 
 
