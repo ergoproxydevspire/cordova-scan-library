@@ -18,9 +18,9 @@
       </feature>
     </config-file>
 
-        <source-file src="src/android/scanlibrary/library/src/main" target-dir="src/com/scanlibrary" />
+        <source-file src="src/android/scanlibrary/library/src/main/java/com/scanlibrary" target-dir="src/com" />
 
-<!--    <source-file src="src/android/jni" target-dir="jni" />-->
+    <source-file src="src/android/scanlibrary/library/src/main/res" target-dir="res/" />
 <!--    <source-file src="src/android/libs" target-dir="libs" />-->
 <!--    <source-file src="src/android/obj" target-dir="obj" />-->
 <!--    <source-file src="src/android/res" target-dir="res" />-->
