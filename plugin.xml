@@ -18,7 +18,7 @@
       </feature>
     </config-file>
 
-        <source-file src="src/android/scanlibrary/library/src/main/java/com/scanlibrary" target-dir="src/com" />
+        <source-file src="src/android/scanlibrary/" target-dir="src/com" />
 
         <source-file src="src/android/scanlibrary/library/src/main/res" target-dir="capacitor-cordova-android-plugins/res" />
 <!--    <source-file src="src/android/libs" target-dir="libs" />-->
